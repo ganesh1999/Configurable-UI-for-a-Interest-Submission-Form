@@ -1,6 +1,8 @@
 import { promises as fs } from "fs";
 import path from "path";
 
+export const dynamic = 'force-dynamic' 
+
 // API-Route: /api/getconfig : Return the config options from formconfig.json
 export async function GET(request: Request) {
   try {
