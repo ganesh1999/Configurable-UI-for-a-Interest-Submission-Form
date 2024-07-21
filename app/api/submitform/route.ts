@@ -88,3 +88,6 @@ function validateFormData(formData: any, config: any): string[] {
 
   return errors;
 }
+
+
+// Given the dynamic nature of the fields and values in the form, it's indeed a good approach to save the data as a JSON object in a flexible schema. 
