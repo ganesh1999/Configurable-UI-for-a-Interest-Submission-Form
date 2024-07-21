@@ -1,0 +1,61 @@
+{
+  "timeoutThreshold": 60,
+  "pages": [
+    {
+      "questions": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "validation": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        {
+          "name": "gender",
+          "label": "Gender",
+          "type": "select",
+          "required": true,
+          "allowCustomInput": false,
+          "options": ["M", "F", "Nonbinary"]
+        },
+        {
+          "name": "Date",
+          "label": "DOB ",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "age",
+          "label": "Age",
+          "type": "number",
+          "required": true,
+          "validation": {
+            "type": "number",
+            "min": 0
+          }
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "name": "profession",
+          "label": "Profession",
+          "type": "select",
+          "required": true,
+          "options": ["Owner", "Agent", "Buyer", "Seller"],
+          "allowCustomInput": true
+        },
+        {
+          "name": "services",
+          "label": "What services do you need?",
+          "type": "text",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
