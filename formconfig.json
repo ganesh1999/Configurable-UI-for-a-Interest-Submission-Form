@@ -1,5 +1,5 @@
 {
-  "timeoutThreshold": 60,
+  "timeoutThreshold": 1800,
   "pages": [
     {
       "questions": [
@@ -20,12 +20,6 @@
           "required": true,
           "allowCustomInput": false,
           "options": ["M", "F", "Nonbinary"]
-        },
-        {
-          "name": "Date",
-          "label": "DOB ",
-          "type": "text",
-          "required": true
         },
         {
           "name": "age",
